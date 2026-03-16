@@ -1,0 +1,38 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:client": "webpack --config webpack.config.js",
+    "build:server": "webpack --config webpack.server.js",
+    "build": "npm run build:client && npm run build:server",
+    "dev": "webpack serve --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.13.1",
+    "redux": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/plugin-transform-runtime": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@babel/preset-react": "^7.28.5",
+    "@babel/runtime": "^7.28.6",
+    "babel-loader": "^10.1.1",
+    "css-loader": "^7.1.4",
+    "html-webpack-plugin": "^5.6.6",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^7.0.0",
+    "webpack-dev-server": "^5.2.3",
+    "webpack-node-externals": "^3.0.0"
+  }
+}

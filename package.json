@@ -1,0 +1,28 @@
+{
+  "name": "vungtau-villa",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "description": "��#\u0000 \u0000v\u0000i\u0000l\u0000l\u0000a\u0000-\u0000b\u0000o\u0000o\u0000k\u0000i\u0000n\u0000g\u0000-\u0000a\u0000p\u0000p\u0000\r\u0000 \u0000",
+  "homepage": "https://github.com/danniel-tran/villa-booking-app#readme",
+  "bugs": {
+    "url": "https://github.com/danniel-tran/villa-booking-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danniel-tran/villa-booking-app.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspace=client",
+    "start": "npm run start --workspace=server",
+    "dev": "npm run build --workspace=client && npm run start --workspace=server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
